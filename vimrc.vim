@@ -71,6 +71,8 @@ set mouse=a
 
 " Avec le plugin miniBufExpl : control + fleche change de buffer
 let g:miniBufExplMapWindowNavArrows = 1
+" Sélection avec un click simple
+let g:miniBufExplUseSingleClick = 1
 
 " Nombre minimum de ligne avant et après le curseur
 set scrolloff=3
