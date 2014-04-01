@@ -61,7 +61,6 @@ colorscheme desert
 let python_highlight_builtins=1
 
 " Map
-nmap <C-X> :ConqueTerm bash<CR>
 nmap <C-t> :tabnew<CR>
 nmap <C-d> :tabclose<CR>
 nmap <S-Tab> :tabnext<CR>
