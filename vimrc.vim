@@ -24,7 +24,15 @@ set softtabstop=4
 set shiftwidth=4
 
 " Indentation automatique
-set autoindent
+set autoindent      "Keep indentation from previous line
+set smartindent     "Automatically inserts indentation in some cases
+set cindent         "Like smartindent, but stricter and more customisable
+" Configuration de l'indentation
+" + et ( pour décalage de 1 tab et pas deux lors du
+" saut de ligne de parenthèse ouvrante
+" m pour le décalage de la parenthèse fermante
+" (http://vimdoc.sourceforge.net/htmldoc/indent.html#cinoptions-values)
+set cinoptions=+1s,(1s,m1
 
 " Indentation en fonction du type de fichier
 filetype plugin indent on
